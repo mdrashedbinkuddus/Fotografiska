@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "assetNotes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "assetRef",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timeCreated",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
